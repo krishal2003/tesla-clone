@@ -74,6 +74,10 @@ const LeftButton = styled.div`
   font-size: 12px;
   cursor: pointer;
   margin: 8px;
+
+  &:hover{
+    opacity:0.7;
+  }
 `;
 
 const RightButton = styled(LeftButton)`

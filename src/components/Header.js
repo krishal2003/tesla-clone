@@ -99,9 +99,10 @@ const Menu = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  border:none;
 
   a {
-    font-weight: 600;
+    font-weight: 100;
     text-transform: uppercase;
     padding: 0 10px;
 
@@ -121,7 +122,7 @@ const RightMenu = styled.div`
   align-items: center;
 
   a {
-    font-weight: 600;
+    font-weight: 100;
     text-transform: uppercase;
     margin-right: 10px;
   }
